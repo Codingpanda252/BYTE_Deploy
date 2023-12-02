@@ -1,0 +1,77 @@
+/* src/styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a202c; /* Dark background color for the body */
+    color: #fff; /* White text color */
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for link color */
+  }
+  
+  a:hover {
+    color: #a0aec0; /* Lighter color on hover */
+    text-decoration: underline;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #2d3748; /* Darker background color for the navigation bar */
+    padding: 1rem;
+  }
+  
+  nav a {
+    margin-right: 1.5rem;
+  }
+  
+  /* Header */
+  header {
+    background-color: #4299e1; /* Header background color */
+    padding: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #2d3748; /* Footer background color */
+    color: #a0aec0; /* Lighter text color for the footer */
+    padding: 1rem;
+  }
+  
+  /* Color Styling */
+  .bg-blue-100 {
+    background-color: #ebf8ff;
+  }
+  
+  .bg-blue-500 {
+    background-color: #4299e1;
+  }
+  
+  /* Carousel styles (if needed) */
+  .carousel {
+    /* Add your carousel styles here */
+  }
+  
+  .mentor {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .mentor-img {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Adjust the height as needed */
+    border-radius: 80%; /* Create a circular shape for the image */
+    margin-bottom: 10px;
+  }
+  
