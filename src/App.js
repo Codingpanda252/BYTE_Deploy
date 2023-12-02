@@ -37,7 +37,7 @@ const App = () => {
       {/* Header */}
       <header className="bg-blue-700 text-white p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <h1 className="text-4xl font-bold">BYTE Tech Society</h1>
+          <h1 className="text-4xl font-bold">B.Y.T.E Developers</h1>
           {/* Hamburger menu for smaller screens */}
           <div className="cursor-pointer" onClick={handleMenuClick}>
             {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
